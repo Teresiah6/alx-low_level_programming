@@ -7,19 +7,23 @@
  */
 int main(void)
 {
+	char chartype
 	int intType;
+	long intType;
+	long long IntType;
 	float floatType;
-	double doubleType;
-	char charType;
+
 
 /**
  *  size of evaluates the size of a variable
  *
  */
-	 printf("Size of int: %zu bytes\n", sizeof(intType));
-    	 printf("Size of float: %zu bytes\n", sizeof(floatType));
-	 printf("Size of double: %zu bytes\n", sizeof(doubleType));
+	 printf("Size of char: %zu bytes\n", sizeof(charType));
+	 printf("Size of int: %zu bytes\n", sizeof (intType));
+	 printf("Size of long: %zu bytes\n", sizeof (intType));
+	 printf("Size of long long: %zu bytes\n",sizeof (intType));
 	 printf("Size of char: %zu byte\n", sizeof(charType));
+	 printf("Size of float:%zu byte\n", sizeof(floatType));
                   
          return 0;
 }

@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
  * Main block
+ * main return type void
  * return 0
+ * use \n for new line
+ * main returns int
  */
 int main(void)
 {

@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * Main return type int and no arguments therefore we use void
- * * return 0
- * use \n for new line
- * main returns int
+ *
+ *  Main block -entry point
+ *
+ * Description: printing "with proper grammar ..." with new line
+ * 
+ * returns zero-success
  */
 int main(void)
 {

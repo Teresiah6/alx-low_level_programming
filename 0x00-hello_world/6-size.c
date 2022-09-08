@@ -20,9 +20,8 @@ int main(void)
  */
 	 printf("Size of char: %zu bytes\n", sizeof(charType));
 	 printf("Size of int: %zu bytes\n", sizeof (intType));
-	 printf("Size of long: %zu bytes\n", sizeof (intType));
-	 printf("Size of long long: %zu bytes\n",sizeof (intType));
-	 printf("Size of char: %zu byte\n", sizeof(charType));
+	 printf("Size of long int: %zu bytes\n", sizeof (intType));
+	 printf("Size of long long int: %zu bytes\n",sizeof (intType));
 	 printf("Size of float:%zu byte\n", sizeof(floatType));
                   
          return 0;

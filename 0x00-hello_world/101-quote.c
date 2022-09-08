@@ -1,8 +1,10 @@
 #include<unistd.h>
 /**
- * main function - prints a sentecefollowed by a new line to standard error
+ * main function -Entry point
  *
- * return alway return 1
+ * Description: prints a "and that peice of art ..." followed by a new line to standard error
+ *
+ * return alway return 1 (Success)
  */
 int main(void)
 {

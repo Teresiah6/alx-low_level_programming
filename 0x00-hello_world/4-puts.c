@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * Function main- main block- Entry point
+ *Function main- main block- Entry point
  *
  *Description: Putting "Programming is like building a multilingual puzzle"
  * 
- * return value of main- zero -success
+ *return value of main- zero -success
  */
 int main(void)
 {

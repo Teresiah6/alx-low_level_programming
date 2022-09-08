@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char chartype
+	char chartype;
 	int intType;
-	long intType;
-	long long IntType;
+	long int intType;
+	long long int IntType;
 	float floatType;
 
 
@@ -24,5 +24,5 @@ int main(void)
 	 printf("Size of long long int: %zu bytes\n",sizeof (intType));
 	 printf("Size of float:%zu byte\n", sizeof(floatType));
                   
-         return 0;
+         return (0);
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * Main return type int and no arguments therefore we use void
  * Main block
  * main return type void
  * return 0
@@ -9,5 +10,9 @@
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
+	/**
+	 * Return type is zero, nothing is returned
+	 * 
+	 */
 	return (0);
 }

@@ -7,8 +7,16 @@
  */
 int main(void)
 {
+	/**
+	 * Puts -command used 
+	 *
+	 */
 
 	puts("\"Programming is like building a multilingual puzzle");
+	/**
+	 * returns zero -exit point
+	 *
+	 */
 	return (0);
 
 }

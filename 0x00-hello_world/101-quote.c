@@ -2,9 +2,9 @@
 /**
  * main function -Entry point
  *
- * Description: prints a "and that peice of art ..." followed by a new line to standard error
+ * Description: print a sentence, a new line to standard error
  *
- * return alway return 1 (Success)
+ * return always return 1 (Success) -exit point
  */
 int main(void)
 {

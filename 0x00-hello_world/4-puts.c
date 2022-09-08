@@ -1,14 +1,15 @@
 #include<stdio.h>
 /**
- *Function main- main block- Entry point
+ * main - prints using put the sentence
  *
- *Description: Putting "Programming is like building a multilingual puzzle"
+ * "Programming is like building a multilingual puzzle"
  * 
- *return value of main- zero -success
+ * Return: Always 0
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
+
 }
 

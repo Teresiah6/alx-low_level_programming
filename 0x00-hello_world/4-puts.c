@@ -1,11 +1,12 @@
 #include <stdio.h>
-/*main block
+/*
+ * *main block
  * retun 0
  */
 int main ()
 {
-puts ("\"Programming is like building a multilingual puzzle");
-return o;
+	puts ("\"Programming is like building a multilingual puzzle");
+	return o;
 
 }
 

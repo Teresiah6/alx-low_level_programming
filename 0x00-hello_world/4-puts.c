@@ -3,7 +3,7 @@
  * main block of type int
  * use void arguments
  * has return type int
- * retun 0 as nothing will be returned
+ * main: return type of int returns 0
  */
 int main(void)
 {

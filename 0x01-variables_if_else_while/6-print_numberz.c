@@ -4,7 +4,7 @@
  *
  * digit numbers of base 10 from 0
  *
- * Return: always 
+ * Return: always 0
  */
 int main(void)
 {

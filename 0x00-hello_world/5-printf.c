@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main block prints with proper grammar but
+ * main - Prints with proper grammar but
  *
  * outcome is a piece of art, new line
  *

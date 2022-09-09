@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
+ * main block prints with proper grammar but
  *
- *  Main block -entry point
+ * outcome is a piece of art, new line
  *
- * Description: printing "with proper grammar ..." with new line
- * 
- * returns zero-success
+ * Return: Always 0
  */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
+
 }

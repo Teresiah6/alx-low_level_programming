@@ -1,10 +1,10 @@
 #include<unistd.h>
 /**
- * main function -Entry point
+ * main - writes and that peice of art is useful
  *
- * Description: print a sentence, a new line to standard error
+ * - Dora Korpar, 2015-10-19
  *
- * return always return 1 (Success) -exit point
+ * Return: Always 1
  */
 int main(void)
 {

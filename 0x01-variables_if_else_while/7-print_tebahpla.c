@@ -2,15 +2,15 @@
 /**
  * main -program that prints lowercase
  *
- * alphabet in reverse 
- *
+ * alphabet in reverse
+ * 
  * Return: always 0
  */
 int main(void)
 {
 	char i;
 
-	for(i = 'z'; i >= 'a'; i--)
+	for (i = 'z'; i >= 'a'; i--)
 	{
 		putchar(i);
 	}

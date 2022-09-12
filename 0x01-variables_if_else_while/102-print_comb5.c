@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - program that prints all possible 
+ * main - program that prints all possible
  *
  * combination of 2 2-digit numbers
  *
@@ -21,7 +21,7 @@ int main(void)
 			putchar((j / 10) + '0');
 			putchar((j % 10) + '0');
 
-			if (i == 98 && j ==99)
+			if (i == 98 && j == 99)
 				continue;
 
 			putchar(',');
@@ -30,5 +30,5 @@ int main(void)
 	}
 
 	putchar('\n');
-	return(0);
+	return (0);
 }

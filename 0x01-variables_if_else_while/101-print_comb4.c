@@ -23,10 +23,11 @@ int main()
 					putchar(j);
 					putchar(k);
 
-				if (i == '7' && j == '8' && k == '9')
-					continue;
-				putchar(',');
-				putchar(' ');
+					if (i == '7' && j == '8' && k == '9')
+						continue;
+					
+					putchar(',');
+					putchar(' ');
 			}
 		}
 	}

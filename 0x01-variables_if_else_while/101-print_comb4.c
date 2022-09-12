@@ -19,6 +19,7 @@ int main()
 			for (k = j+1; k <= '9'; k++)
 			{
 				if ((i !=j) !=k)
+				{
 					putchar(i);
 					putchar(j);
 					putchar(k);
@@ -28,6 +29,7 @@ int main()
 					
 					putchar(',');
 					putchar(' ');
+				}
 			}
 		}
 	}

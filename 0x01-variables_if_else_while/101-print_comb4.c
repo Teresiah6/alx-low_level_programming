@@ -12,7 +12,7 @@ int main(void)
 	int j;
 	int k;
 
-	for (i = '0'; i <'8'; i++)
+	for (i = '0'; i < '8'; i++)
 	{
 		for (j = i + 1; j < '9'; j++)
 		{
@@ -25,7 +25,7 @@ int main(void)
 					putchar(k);
 
 					if (i == '7' && j == '8' && k == '9')
-						continue;					
+						continue;			
 					putchar(',');
 					putchar(' ');
 				}

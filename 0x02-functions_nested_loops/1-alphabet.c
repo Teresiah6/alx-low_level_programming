@@ -2,11 +2,9 @@
 /**
  * main - a function that prints teh aphabet in lowercase
  *
- * followed by a new line
+ * Description: print_alphabet() voidtype returns void
  *
- * Description: prints alphabets in lowercase
- * 
- * Return: always 0
+ * Return: always void
  */
 void print_alphabet(void)
 {

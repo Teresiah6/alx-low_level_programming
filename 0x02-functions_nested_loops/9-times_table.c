@@ -17,7 +17,7 @@ void times_table(void)
 
 	for (j = 0; j < 10; j++)
 	{
-		ans = pow (9, j);
+		ans = (9 * (9 ^ j);
 		_putchar (ans);
 		_putchar ('\n');
 		

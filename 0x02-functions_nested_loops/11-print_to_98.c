@@ -2,6 +2,8 @@
 /**
  * print_to_98 - entry point
  *
+ * @n: argumentin print_to_98
+ *
  * Return: always 0
  */
 void print_to_98(int n)
@@ -23,7 +25,7 @@ void print_to_98(int n)
 		n--;
 		_putchar (',');
 		_putchar (' ');
-	
+
 	}
 
 	n = 98;

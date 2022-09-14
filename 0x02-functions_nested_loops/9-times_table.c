@@ -1,9 +1,8 @@
 #include "main.h"
-#include<math.h>
 /**
  * times_table - entry point
  *
- * Descrip[tion: function that prints 9 times table
+ * Description: function that prints 9 times table
  *
  * Return: always 0
  */
@@ -25,12 +24,12 @@ void times_table(void)
 
 			ans = j * m;
 
-			if (ans <=9)
-				-putchar(' ');
+			if (ans <= 9)
+				_putchar(' ');
 			else
 				_putchar ((ans / 10) + '0');
 
-			_putchar((ans % 10) + '0');
+			_putchar ((ans % 10) + '0');
 
 		}
 	

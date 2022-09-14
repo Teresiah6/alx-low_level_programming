@@ -4,8 +4,8 @@
  *
  * followed by a new line
  *
- * print_alphabet -void input and return type 
- *
+ * Description: prints alphabets in lowercase
+ * 
  * Return: always 0
  */
 void print_alphabet(void)

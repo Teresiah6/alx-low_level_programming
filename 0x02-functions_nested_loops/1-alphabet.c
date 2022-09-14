@@ -4,11 +4,14 @@
  *
  * followed by a new line
  *
+ * print_alphabet -void input and return type 
+ *
  * Return: always 0
  */
 void print_alphabet(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
 

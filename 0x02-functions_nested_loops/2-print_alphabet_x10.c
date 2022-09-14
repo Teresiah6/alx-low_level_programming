@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 : entry point of program that prints a-z X10
+ * print_alphabet_x10 - entry  point return void and input void
  *
  * Description: program prints alphabet ten times, void return type
  *

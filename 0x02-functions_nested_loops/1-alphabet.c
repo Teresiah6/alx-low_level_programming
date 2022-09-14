@@ -9,6 +9,7 @@
 int main(void)
 {
 	print_alphabet();
+	_putchar('[a-z]');
 	_putchar('\n');
 
 	return(0);

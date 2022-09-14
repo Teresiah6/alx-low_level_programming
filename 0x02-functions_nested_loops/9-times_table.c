@@ -1,4 +1,5 @@
 #include "main.h"
+#include<math.h>
 /**
  * times_table - entry point
  *
@@ -9,8 +10,9 @@
 void times_table(void)
 {
 	
-	int j
+	int j;
 	int ans;
+
 
 
 	for (j = 0; j < 10; j++)

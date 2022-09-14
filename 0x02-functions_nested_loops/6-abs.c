@@ -13,12 +13,10 @@ int _abs(int r)
 	{
 		r = r * -1;
 		_putchar (r);
-		_putchar ('\n');
 	}
 	else
 	{
 		_putchar (r);
-		_putchar ('\n');
 	}
 
 	return (0);

@@ -8,8 +8,13 @@
  */
 int main(void)
 {
-	print_alphabet();
-	_putchar('[a-z]');
+	print_alphabet()
+	{
+		char c;
+		for (c = 'a'; c <= 'z'; c++)
+			putchar(c);
+	}
+
 	_putchar('\n');
 
 	return(0);

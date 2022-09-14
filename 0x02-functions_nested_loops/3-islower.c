@@ -2,9 +2,7 @@
 /**
  * _islower - entry point, int input type and int arg
  *
- * c - is int that determines if letter is upper or lowercase
- *
- * Description: checks for lowercase character and returns diff int
+ * Description: int c checks for lowercase character and returns diff int
  *
  * Return: either 1 or 0
  */

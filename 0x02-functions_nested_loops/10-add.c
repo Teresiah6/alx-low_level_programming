@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * int add - entry point
+ * add - entry point
  *
- * Description: function adds
+ * @i - first paramater in add
+ *
+ * @j - second paramer in add
  *
  * Return: returns the results of addition
  */

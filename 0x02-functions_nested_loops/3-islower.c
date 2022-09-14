@@ -2,7 +2,7 @@
 /**
  * _islower - entry point, int input type and int arg
  *
- * Description: int c checks for lowercase character and returns diff int
+ * @c: checks for lowercase character and returns diff int
  *
  * Return: either 1 or 0
  */

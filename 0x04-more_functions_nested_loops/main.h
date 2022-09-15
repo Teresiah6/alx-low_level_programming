@@ -1,4 +1,4 @@
-fndef HEADER_FILE
+#ifndef HEADER_FILE
 #define HEADER_FILE
 
 int _putchar(char c);

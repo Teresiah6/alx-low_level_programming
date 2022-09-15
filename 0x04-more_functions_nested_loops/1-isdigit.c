@@ -6,11 +6,11 @@
  *
  * Return: either 1 or 0
  */
-int -isdigit(int c)
+int _isdigit(int c)
 {
-	if (( c>= 48) && (c <= 57))
+	if (( c >= 48) && (c <= 57))
 	{
-		retunr (1);
+		return (1);
 	}
 	else
 	{

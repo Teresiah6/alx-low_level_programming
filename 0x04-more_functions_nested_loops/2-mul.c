@@ -17,5 +17,5 @@ int mul(int a, int b)
 	_putchar (result);
 	_putchar ('\n');
 
-	return (0);
+	return (result);
 }

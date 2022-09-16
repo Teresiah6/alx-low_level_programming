@@ -18,7 +18,7 @@ void positive_or_negative(int i)
 	}
 	else 
 	{
-		printf("%i is zero\n", i);
+	       printf("%i is zero\n", i);
 	}
 
 }

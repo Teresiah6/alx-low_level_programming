@@ -4,7 +4,7 @@
  *
  * @c: check if upper
  *
- * Return: either 1 or 0
+ * Return: either 1 or 
  */
 int _isupper(int c)
 {
@@ -12,10 +12,10 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
-	} 
+	}
 	
 	_putchar ('\n');
 }

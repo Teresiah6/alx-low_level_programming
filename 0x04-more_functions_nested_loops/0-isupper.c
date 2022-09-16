@@ -4,11 +4,11 @@
  *
  * @c: check if upper
  *
- * Return: either 1 or 
+ * Return: either 1 or 0
  */
 int _isupper(int c)
 {
-	if ((c >= 'A') && (c <= 'Z'))
+	if ((c >= 65) && (c <= 90))
 	{
 		return (1);
 	}
@@ -16,6 +16,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-	
-	_putchar ('\n');
 }

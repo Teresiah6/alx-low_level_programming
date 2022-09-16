@@ -21,7 +21,7 @@ void print_most_numbers(void)
 			break;
 
 		_putchar (i);
-			
+
 	}
 
 	_putchar ('\n');

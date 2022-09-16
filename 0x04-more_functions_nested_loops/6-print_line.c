@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print line- entry point
+ * print_line- entry point
  *
  * @l: number of _ to be printed
  *
@@ -14,7 +14,9 @@ void print_line(int n)
 	{
 		for (l = 0; l < n; l++)
 			_putchar ('_');
-	}
 
-	_putchar ('\n');
+		_putchar('\n');
+	}
+	else
+		_putchar ('\n');
 }

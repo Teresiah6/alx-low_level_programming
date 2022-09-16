@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print line- entry point 
+ * print line- entry point
  *
  * @l: number of _ to be printed
  *
- * Return: void
+ * Return: void so nothing to return
  */
 void print_line(int n)
 {

@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * positive or negative - entry point
- *
- * @i : checks if + or -
+ * main - entry point tests for function
  *
  * Return: always 0
  */
@@ -10,18 +8,9 @@ int main()
 {
 	int i; 
 
-	if (i > 0)
-	{
-		printf ("%i is positive\n", i);
-	}
-	else  if (i < 0)
-	{
-		printf ("%i is negative\n", i);
-	}
-	else 
-	{
-	       printf("%i is zero\n", i);
-	}
+	i= 0;
+
+	positive_or_negative (1);
 
 	return (0);
 }

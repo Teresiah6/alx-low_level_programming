@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 /**
  * main - entry point
  *
@@ -25,10 +26,12 @@ int main(void)
 
 		}
 		else if ((n % 3) == 0)
+		{
 			_putchar ('F');          
 		        _putchar ('i');
 		       	_putchar ('z');          
 		        _putchar ('z'); 
+		}
 
 		else if ((n % 5) == 0)
 		{
@@ -37,11 +40,13 @@ int main(void)
 			_putchar ('z');
 			_putchar ('z');
 		}
-		else 
+		else
+		{	
 			_putchar (n);
+		}
 
-		if (n == 100)
-			continue;
+
+
 
 		_putchar (' ');
 	}

@@ -6,8 +6,7 @@
  */
 void _puts(char *str)
 {
-	int c[];
-	char str = &a[0];
+	char str[100];
 
 	_putchar(*str);
 	_putchar('\n');

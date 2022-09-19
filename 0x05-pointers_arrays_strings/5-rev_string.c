@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * rev-string - entry point
- * @s -inputted string
- * Return:void
+ * rev_string - entry point
+ * @s: inputted string
+ * Return: void
  */
 void rev_string(char *s)
 {
@@ -22,4 +22,3 @@ void rev_string(char *s)
 
 	}
 }
-	

@@ -1,4 +1,4 @@
-iinclude "main.h"
+#include "main.h"
 /**
  * rev-string - entry point
  * @s -inputted string

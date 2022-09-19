@@ -6,9 +6,9 @@
  */
 void _puts(char *str)
 {
-	int c;
-	char str[];
-	c = sizeof(str);
+	int c[];
+	char str = &a[0];
+
 	_putchar(*str);
 	_putchar('\n');
 }

@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * _strlen(char *s) - entry point
+ * _strlen - entry point
  *
- * @s: string for which length is to bev determined
+ * @s: string for which length is to be determined
  *
- * Return: return int 
+ * Return: return int
  */
 int _strlen(char *s)
 {
 	int len = 0;
+
 	while (*s != '\0')
 	{
 		len++;

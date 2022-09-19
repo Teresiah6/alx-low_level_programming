@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts: entry point
+ * _puts - entry point
  * @str: string input
  * Return: void
  */

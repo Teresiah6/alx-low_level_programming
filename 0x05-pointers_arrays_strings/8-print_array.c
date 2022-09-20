@@ -5,13 +5,18 @@
  */
 void print_array(int *a, int n)
 {
-	int a[n];
-	n = 0;
-
-	for (n = 0; a[n] != '\n'; n++)
+	int i;
+	
+	for (i = 0; i <(n - 1)i++)
 	{
-		printf("%d", a[n]);
-		printf(" ,");
+		printf("%d", a[i]);
+
+		if (i == (n -1))
+		{
+			printf("%d", a[n-1]);
+		}
+
 	}
+	printf(" ,");
 
 }

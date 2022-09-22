@@ -7,18 +7,22 @@ rinclude "main.h"
  */
 char *_strcat(char *dest, char *src)
 {
+	int l1;
+	int l2;
 	int i;
-	int n = -1;
 
-	for (i = 0; dest[i] != '\0'; i++);
+	while (*src != '\0')
+		l2++;
 
-	do
+	while (*dest != '\0')
+		l1++;
+
+	for (i = 0; i <= l2; i++)
 	{
-		n++;
-		dest[i] = src[n];
-		i++;
+		dest[l1+1] = src[i];
+	}
 
-	} while (src[a] != '\0');
+//	_putchar(dest);
 
-	return (dest);
+	return(dest);
 }

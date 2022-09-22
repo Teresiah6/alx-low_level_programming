@@ -1,28 +1,28 @@
 #include "main.h"
 /**
  * *leet - entry point
- * @str: string to print 1337
+ * @n: string to print 1337
  * Return: return a char
  */
-char *leet(char *str)
+char *leet(char *n)
 {
+	int x;
 	int i;
-	int ii;
+	int find[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int replace[] = {'4', '3', '0', '7', '1'};
 
-	char str1[] = "aetol";
-	char str1[] = "AETOL";
-	char str2[] = "43071";
-
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		for (ii = 0; ii < 5; ii++)
+		for (x = 0; x <=9; x++)
 		{
-			if (str[i] == str1[ii] || str[i] == str1[ii])
+			if (n[i] == find[x])
 			{
-				str[i] = str2[ii];
-				break;
+				n[i] = replace[x/2];
+				x = 9;
 			}
 		}
 	}
-	return(str);
+
+	return(n);
+
 }

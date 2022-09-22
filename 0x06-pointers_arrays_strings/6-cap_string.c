@@ -4,40 +4,29 @@
  *
  * Return: a char
  */
-char *cap_string(char *str)
+char *cap_string(char *n)
 {
-	char sep[] = ",\t;\n; .!?\"(){}";
-	int flag;
-	int i;
-	int ii;
+	int i, x;
+	int cap = 32;
+	int separators[] = {',', ';', '.', '?', '"','(', ')', '{', '}', ' ', '\n', '\t'};
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		flag = 0;
-
-		if (i == 0)
+		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			flag = 1;
+			n[i] = n[i] - cap;
 		}
-		else
+		
+		cap = 0;
+		for (x = 0; x <= 12; x++)
 		{
-			for (ii = 0; sep[ii] != '\0'; ii++)
+			if (n[i] == separators[x])
 			{
-				if(str[i -1] == sep[ii])
-				{
-					flag = 1;
-					break;
-				}
+				x = 12;
+				cap = 32;
 			}
-		}
-		if (flag == 1)
-		{
-			if (str[i] <= 'z' && str[i] >= 'a'
-					{
-					str[i] -= ('a' - 'A');
-					}
 		}
 	}
 
-	return (str);
+	return(n);
 }

@@ -7,16 +7,15 @@ rinclude "main.h"
  */
 char *_strcat(char *dest, char *src)
 {
-	int i = 0;
-	dest_length = 0;
+	int i;
+	int n;
 
-	for (i = 0; dest[i] != '\0'; i++)
-	{
-	}
+	for (i = 0; dest[i] != '\0'; i++);
 
-	for (n = 0; (dest[i+n]= *src++)!= '\0'; n++)
+	for (n = 0; src[n] != '\0'; n++)
 	{
-	
+		dest[i+n] = src[n];
+		/*dest[i+n] = '\0';*/
 	}
 
 	return (dest);

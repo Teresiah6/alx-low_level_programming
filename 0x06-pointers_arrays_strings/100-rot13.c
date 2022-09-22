@@ -6,7 +6,7 @@
  */
 char *rot13(char *n)
 {
-	int rot;
+	int rot = 13;
 	int i = 0;
 	int x;
 	char toSwap[] = {'A', 'N', 'a', 'n', 'B', 'O', 'b', 'o', 'C', 'P',
@@ -21,7 +21,7 @@ char *rot13(char *n)
 			if (n[i] == toSwap[x]
 					{
 					
-					n[i] =n[i] + rot;
+					n[i] = n[i] + rot;
 					x = 51;
 					}
 

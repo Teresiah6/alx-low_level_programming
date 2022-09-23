@@ -19,9 +19,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 
-	while ((dest[i++] = src[j++] != '0'))
-	{
-		return(dest);
-	}
+	while ((dest[i++] = src[j++] != '0'));
 	
+		return(dest);	
 }

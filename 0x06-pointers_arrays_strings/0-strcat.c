@@ -8,10 +8,14 @@ rinclude "main.h"
 char *_strcat(char *dest, char *src)
 {
 	int i;
-	int n;
+	int dest_length;
 
-	for (i = 0; dest[i] != '\0'; i++);
-	for (n = 0; (dest[i+n] = *src++) != '\0'; n++);
+	while (dest[i])
+		dest_length++;
+
+	for (i = 0; src[i]; i++)
+		dest[dest_length++] = src[i++];
+
 
 	return(dest);
 }

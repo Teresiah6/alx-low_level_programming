@@ -1,24 +1,22 @@
 #include "main.h"
 /**
  * *string_toupper - entry point
- * @str: string to convert
+ * @s: string to convert
  * Return: return char
  */
 #define MAX_SIZE 100
 
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 {
 	char str[MAX_SIZE];
+	char *s = str;
 	int i;
 	
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		if (str[i] <= 'z'  && str[i] >= 'a')
-		{
-			str[i] -= 32;
-		}
-
-	}
+	while(*s) 
+		    {
+			            *s = (*s > 'a' && *s <= 'z') ? *s-32 : *s;
+				            s++;
+					        }
 	_putchar(str);
 	return (str);
 }

@@ -4,19 +4,20 @@
  * @s: string to convert
  * Return: return char
  */
-#define MAX_SIZE 100
-
 char *string_toupper(char *s)
 {
-	char str[MAX_SIZE];
-	char *s = str;
-	int i;
+	int i = 0;
+
+	while (*(s + i) != '\0')
+	{
+		if ((*(s + i) >= 97) && (*(s + i) <= 122))
+			{
+				*(s + i) = *(s + i) - 32;
+			}
+
+		i++
+	}
+
 	
-	while(*s) 
-		    {
-			            *s = (*s > 'a' && *s <= 'z') ? *s-32 : *s;
-				            s++;
-					        }
-	_putchar(str);
-	return (str);
+	return (s);
 }

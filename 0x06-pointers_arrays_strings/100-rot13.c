@@ -6,27 +6,23 @@
  */
 char *rot13(char *n)
 {
-	int rot = 13;
-	int i = 0;
-	int x;
-	char toSwap[] = {'A', 'N', 'a', 'n', 'B', 'O', 'b', 'o', 'C', 'P', 'c', 'p', 'D', 'Q', 'd', 'q', 'E', 'R', 'e', 'r', 'F', 'S', 'f', 's', 'G', 'T', 'g', 't', 'H', 'U', 'h', 'u', 'I', 'V', 'i', 'v', 'J', 'W', 'j', 'w', 'K', 'X', 'k', 'x', 'L', 'Y', 'l', 'y', 'M', 'Z', 'm', 'z'};
+	int count = 0;
+	int i;
 
-	while(n[i] != '\0')
-	{
-		for (x =0; x <= 51; x++)
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+
+	while (*(n + count) != '\0')
 		{
-			if (n[i] == toSwap[x]
-					{
-					
-					n[i] = n[i] + rot;
-					x = 51;
-					}
-
-					rot = rot * - 1;
+			for (i = 0; i < 52; i++)
+				{
+					if (*(n + count) == alphabet[i])
+						{
+							*(n + count) = rot13[i];
+							break;
+						}
+				}
+			count++;
 		}
-		i++;
-	}
-
-	return(n);
-
+	return (n);
 }

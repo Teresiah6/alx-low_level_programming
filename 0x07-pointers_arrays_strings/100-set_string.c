@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * set_string: entry point
+ * set_string - entry point
  * @s: char double pointer
  * @to: pointer
  * Return: void nothing to return

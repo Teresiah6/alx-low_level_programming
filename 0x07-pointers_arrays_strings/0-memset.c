@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset - entry point
+ * *_memset - entry point
  * @s: points to block of memory to fill
  * @n: number of bytes to set value
  * @b: value to set
@@ -14,7 +14,6 @@ char *_memset(char *s, char b,unsigned int n)
 	{
 		s[i] = b;
 	}
-
 
 	return(s);
 }

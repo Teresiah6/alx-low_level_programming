@@ -4,9 +4,9 @@
  * @s: pointer to block of memory to fill
  * @n: number of bytes to set value
  * @b: value to set
- * Return: char to be returned
+ * Return: char to be returned @s
  */
-char *_memset(char *s, char b,unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 

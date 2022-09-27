@@ -3,7 +3,8 @@
  * _strspn - entry point
  * @s: string to check
  * @accept: to match against
- * Return: no. of bytes in s and bytesfrm acpt
+ * @sim: number of bytes
+ * Return: int bytes of @sim
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -19,10 +20,12 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
+
 		if (accept[j] == '\0')
 		{
 			break;
 		}
+
 	}
 
 	return (sim);

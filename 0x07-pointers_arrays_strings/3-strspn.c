@@ -1,9 +1,9 @@
 #include "main.h"
-/**`
+/**
  * _strspn - entry point
  * @s: string to check
  * @accept: to match against
- * Return: int bytes of @s
+ * return: int bytes of @s
  */
 unsigned int _strspn(char *s, char *accept)
 {

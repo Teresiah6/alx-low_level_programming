@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+/**`
  * _strspn - entry point
  * @s: string to check
  * @accept: to match against
@@ -23,7 +23,6 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			break;
 		}
-		
 	}
 
 	return (sim);

@@ -3,8 +3,7 @@
  * _strspn - entry point
  * @s: string to check
  * @accept: to match against
- * @sim: number of bytes of s
- * return: int bytes in @s
+ * return: unsigned int bytes in @s
  */
 unsigned int _strspn(char *s, char *accept)
 {

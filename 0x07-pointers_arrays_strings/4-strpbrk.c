@@ -1,7 +1,7 @@
 #include "main.h"
 #define NULL 0
 /**
- * *_strpbrk - entry 
+ * *_strpbrk - entry
  * @s: string to match
  * @accept: matches
  * Return: char
@@ -23,7 +23,6 @@ char *_strpbrk(char *s, char *accept)
 			}
 		}
 		i++;
-		
 	}
 
 	return (NULL);

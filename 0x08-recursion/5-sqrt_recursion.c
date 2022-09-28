@@ -4,7 +4,7 @@
  * @n:number to get sqrt of 
  * Return: int sqrt of number
  */
-int _sqrt_recursion(int n)i
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);

@@ -13,7 +13,7 @@ int divisibility(int n, int d)
 	if (d == n / 2)
 		return (1);
 
-	return (divisibility(n, d + 1);
+	return (divisibility(n, d + 1));
 }
 /**
  * is_prime_number - entry point

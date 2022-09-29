@@ -2,7 +2,7 @@
 /**
  * divisibility - entry point
  * @n: number to check
- * @d: dividing by 
+ * @d: dividing by
  * Return: o or 1 if divisible and not
  */
 int divisibility(int n, int d)

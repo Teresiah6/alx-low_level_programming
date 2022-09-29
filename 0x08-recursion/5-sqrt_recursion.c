@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 		return (1);
 
 /*	return (n * _sqrt_recursion(n - 1));*/
-	return(square(n, a - 1));
+	return(square(n, 1));
 }
 /**
  * square -entry point

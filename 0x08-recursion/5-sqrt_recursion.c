@@ -6,30 +6,24 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-		return (-1);
-	if (n == 1)
-		return (1);
-
-/*	return (n * _sqrt_recursion(n - 1));*/
-	return(square(n, 1));
-}
-/**
- * square -entry point
- * @n: numberto find sqrt of
- * @a: square root
- * Return: int 
- */
-int square(int n, int a)
-{
-	if( a * a == n)
+	int a;
+	if (a * a == n)
 	{
 		return (a);
 	}
 	else if (a * a < n)
 	{
-		return (square (n, a + 1));
+		return (a * _sqrt_recursion(n - 1));
 	}
-	else
+	else if (n < 0)
+	{
 		return (-1);
+	}
+	else if (n == 1)
+	{
+		return (1);
+	}
+
+	return (n * _sqrt_recursion(n - 1));
 }
+

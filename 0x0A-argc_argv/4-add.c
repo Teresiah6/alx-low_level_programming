@@ -10,26 +10,24 @@
 int main(int argc, char* argv[])
 {
 	int i;
-	(void) argc;
+	int d;
+	s = 0;
 
-	while(argc > 1)
+	for (i = 1; i < argc; i++)
 	{
-		for (i = 1; i < argc; i++)
+		for (d = 0; argv[d][i]; d++)
 		{
-			/* is not a number */
-			if (!isdigit(argv[i]))
-			{
-				printf("0\n");
-
-			}
-			/*if one of the number passed contains symbols not digits*/
-			else if (isdigit(argv[argc]))
+			if (argv[i][d] < '0' || arg[num][digit] > '9')
 			{
 				printf("Error\n");
 				return (1);
+
 			}
 		}
-	}
+
+		sum += atoi(argv[i]);
+		}
+	printf("%d\n", s);
 
 	return (0);
 

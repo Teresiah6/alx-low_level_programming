@@ -1,27 +1,27 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * isdigit - check if an integer
- * @d: string to check
- * Return: 1 or 0
+ * isInteger - checks if s is an integer
+ * @s: string to check
+ * Return: 0 or 1
  */
-int isInteger(constant char *s)
+
+int isInteger(const char *s)
 {
 	int i = 0;
 	while (s[i] != '\0')
 	{
-		 if (s[i] < '0' || s[i] > '9')
-			 return (0);
-		         i++;
+		        if (s[i] < '0' || s[i] > '9')
+				                return (0);
+			        i++;
 	}
-
 	return (1);
 }
 
 /**
  * main - adds positive numbers
- * @argc: argument count
- * @argv: argument vector
+ * @argc: count
+ * @argv: vector
  * Return: 0
  */
 int main(int argc, char const *argv[])
@@ -36,18 +36,19 @@ int main(int argc, char const *argv[])
 	}
 	if (isInteger(argv[1]))
 	{
-		i = atoi(argv[1]);
-		while (i > 0 && coin <= 4)
-		{
-			if (i >= coins[coin])
-			{													                        i -= coins[coin];
+		        i = atoi(argv[1]);
+			        while (i > 0 && coin <= 4)
+					        {
+							                if (i >= coins[coin])
+										                {
+													                        i -= coins[coin];
 																                        coinUsed++;
-			}
-	                else
-			{
-				coin++;
-			}
-		}
+																			                }
+									                else
+												                {
+															                        coin++;
+																		                }
+											        }
 	}
 
 	printf("%i\n", coinUsed);

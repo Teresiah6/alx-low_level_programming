@@ -1,12 +1,11 @@
-#include "main.h"
-#include<stdlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * isdigit - check if an integer
  * @d: string to check
  * Return: 1 or 0
  */
-int isInteger(char *s)
+int isInteger(constant char *s)
 {
 	int i = 0;
 	while (s[i] != '\0')

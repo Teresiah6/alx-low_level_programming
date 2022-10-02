@@ -5,7 +5,6 @@
  * @s: string to check
  * Return: 0 or 1
  */
-
 int isInteger(const char *s)
 {
 	int i = 0;
@@ -18,7 +17,6 @@ int isInteger(const char *s)
 	}
 	return (1);
 }
-
 /**
  * main - adds positive numbers
  * @argc: count
@@ -42,7 +40,7 @@ int main(int argc, char const *argv[])
 		while (i > 0 && coin <= 4)
 		{
 			if (i >= coins[coin])
-			{ 
+			{
 				i-= coins[coin];
 				coinUsed++;
 			}

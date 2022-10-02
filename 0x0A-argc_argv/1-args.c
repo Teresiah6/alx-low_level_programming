@@ -5,12 +5,13 @@
  * main - entry point
  * @argc: argument count
  * @argv: argument vector
- * Return: zero
+ * Return: always zero
  */
 int main(int argc, char* argv[])
 {
 	(void)argv;
+
 	printf("%i\n", argc - 1);
-	
+
 	return (0);
 }

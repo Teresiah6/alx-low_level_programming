@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * *_strdup -pointer to new string
  * @str -pointer to string
@@ -7,7 +10,7 @@
 char *_strdup(char *str)
 {
 	int i = 0;
-	size =0;
+	int size = 0;
 	char *m;
 
 

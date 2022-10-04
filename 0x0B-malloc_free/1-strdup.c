@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>
 /**
@@ -9,8 +8,8 @@
  */
 char *_strdup(char *str)
 {
-	int i = 0;
-	int size = 0;
+	int i;
+	int size;
 	char *m;
 
 
@@ -21,7 +20,7 @@ char *_strdup(char *str)
 	}
 
 /*increase size of string if end is not reached*/
-	for (; str[size] != '\0'; size++);
+	for (size = 0; str[size] != '\0'; size++);
 	return (str);
 
 	/*string allocation*/
@@ -31,7 +30,7 @@ char *_strdup(char *str)
 		return (NULL);
 	else
 	{
-		for (; i < size; i++)
+		for (i = 0; i < size; i++)
 			m[i] = str[i];
 	}
 

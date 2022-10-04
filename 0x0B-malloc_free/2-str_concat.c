@@ -4,14 +4,13 @@
 /**
  * _strlen - length of string
  * @s: string
- * return: i
+ * Return: i
  */
 int _strlen(char *s)
 {
 	int size;
 
-	for(size = 0; (s[size] != '\0'); size++);
-
+	for (size = 0; (s[size] != '\0'); size++);
 	return (size);
 
 }
@@ -19,7 +18,7 @@ int _strlen(char *s)
  * *str_concat - concatenate two strings
  * @s1: string 1
  * @s2: String 2
- * return: char of strings
+ * Return: char of strings
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -28,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 	int i;
 	char *m;
 
-	if(s1 == NULL)
+	if (s1 == NULL)
 		s1 = '\0';
 	if (s2 == NULL)
 		s2 = '\0';

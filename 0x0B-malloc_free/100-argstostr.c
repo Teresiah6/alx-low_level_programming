@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * _strlen - length of string
  * @s: string
@@ -26,7 +27,7 @@ char *argstostr(int ac, char **av)
 	int cmpt;
 	char *s;
 
-	if (ac = 0 || av == NULL)
+	if ((ac = 0) || (av == NULL))
 		return (NULL);
 	for (i = 0;i < ac; i++, nc++)
 		nc += _strlen(av[i]);

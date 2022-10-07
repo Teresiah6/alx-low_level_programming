@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * *malloc_checked - allocate memory
- * @b - unsigned int
+ * @b: unsigned int
  * Return: pointer to allocated mem
  */
 void *malloc_checked(unsigned int b)
@@ -11,7 +11,7 @@ void *malloc_checked(unsigned int b)
 
 	if (ptr == 0)
 	{
-		exit (98);
+		exit(98);
 	}
 
 	return (ptr);

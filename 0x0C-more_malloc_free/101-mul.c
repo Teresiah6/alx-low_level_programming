@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * _puts - prints a string, followed by a new line,
  * @str: pointer to the string to print
@@ -8,6 +9,7 @@
 void _puts(char *str)
 {
 	int i = 0;
+
 	while (str[i])
 	{
 		_putchar(str[i]);
@@ -58,8 +60,8 @@ void print_int(unsigned long int n)
 
 	for (; divisor >= 1; n %= divisor, divisor /= 10)
 	{
-			resp = n / divisor;
-				_putchar('0' + resp);
+		resp = n / divisor;
+		_putchar('0' + resp);
 	}
 
 }
@@ -77,8 +79,9 @@ int main(int argc, char const *argv[])
 
 	if (argc != 3)
 	{
-			_puts("Error ");
-				exit(98);
+		_puts("Error ");
+		_putchar('\n');
+		exit(98);
 	}
 	print_int(_atoi(argv[1]) * _atoi(argv[2]));
 	_putchar('\n');

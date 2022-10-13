@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 	}
 	i = *argv[2];
 /* make sure you are not dividing or modulus with 0 */
-	if ((i == '/' || i == "%") && arg2 == 0)
+	if ((i == '/' || i == '%') && arg2 == 0)
 	{
 		printf("Error\n");
 		exit(100);

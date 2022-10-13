@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * print_name - prints a name
- * @name - pointer to name
+ * @name: pointer to name
  * @f: pointer to @print_name func
  * return: void
  */

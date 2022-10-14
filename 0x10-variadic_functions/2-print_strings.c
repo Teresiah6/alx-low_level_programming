@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_string - entry point prints strings
+ * print_strings - entry point prints strings
  * @separator: string to be printed btwn str
  * @n: no. of strings passed
  * return: void

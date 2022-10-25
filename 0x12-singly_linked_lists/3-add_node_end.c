@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * add_node_end - add node at end of linkedlist
@@ -31,7 +33,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (temp == NULL)
 	{
-		*head = new;
+		*head = nw;
 	}
 	else
 	{

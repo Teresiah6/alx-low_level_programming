@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * free_list - free the list
- * @head: head 
+ * @head: head
  * return: void
  */
 void free_list(list_t *head)
@@ -15,5 +15,4 @@ void free_list(list_t *head)
 		free(existing->str);
 		free(existing);
 	}
-	
 }

@@ -5,7 +5,7 @@
 /**
  * add_node_end - add node at end of linkedlist
  * @str: string
- * @head: head 
+ * @head: head
  * Return: address of new or NULL
  */
 list_t *add_node_end(list_t **head, const char *str)
@@ -23,7 +23,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	nw->str = strdup(str);
 
-	for(newchar = 0; str[newchar]; newchar++)
+	for (newchar = 0; str[newchar]; newchar++)
 		;
 
 	nw->len = newchar;

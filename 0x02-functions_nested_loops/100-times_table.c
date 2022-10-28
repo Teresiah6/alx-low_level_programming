@@ -12,6 +12,8 @@ void print_times_table(int n)
 	int multiplyBy;
 	int product;
 
+	n = 0;
+
 	if (n >= 0 && n <= 15)
 	{
 		for (number = 0; number <= n; number++)
@@ -24,6 +26,7 @@ void print_times_table(int n)
 				_putchar (' ');
 
 				product = number * multiplyBy;
+				
 				if (product <= 99)
 				{
 					_putchar (' ');

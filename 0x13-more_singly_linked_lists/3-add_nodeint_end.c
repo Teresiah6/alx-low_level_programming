@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * add_nodeint_end - entry point
- * @ head: linked list head
- * @n: 
+ * @head: linked list head
+ * @n: linked list no.
  * Return: new node
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -17,9 +17,9 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		return (NULL);
 
 	add->n = n;
-	add-> next  = NULL;
+	add->next  = NULL;
 
-	if(*head == NULL)
+	if (*head == NULL)
 	{
 		*head = add;
 		return (add);

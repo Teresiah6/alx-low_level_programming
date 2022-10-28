@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_time_tables - entry point
+ * print_times_table - entry point
  *
  * @n: argument in print times table
  *
@@ -25,7 +25,6 @@ void print_times_table(int n)
 				_putchar (' ');
 
 				product = number * multiplyBy;
-				
 				if (product <= 99)
 				{
 					_putchar (' ');

@@ -12,7 +12,6 @@ void print_times_table(int n)
 	int multiplyBy;
 	int product;
 
-	n = 0;
 
 	if (n >= 0 && n <= 15)
 	{

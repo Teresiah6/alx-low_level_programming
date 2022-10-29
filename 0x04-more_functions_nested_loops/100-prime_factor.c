@@ -8,48 +8,31 @@
 int main(void)
 {
 	long p = 612852475143;
-	long i = 2;
+	long i;
 	long d;
 
-	while (p != 0)
+
+	while (i < (p / 2))
 	{
-		if (p % i != 0)
-			i++;
-		else
+		if ((p % 2) == 0)
 		{
-			d = p;
 			p = p / 2;
-			if (p == 1)
-			{
-				printf("%ld", d);
-				break;
-			}
+			continue;
 		}
+
+		for (i = 3; i < (p / 2); d = d + 2)
+		{
+			if ((p % i) == 0)
+			{
+				p = p / d;
+			}
+
+		}
+
 	}
 
-
-/*	while (i < (p / 2))
-*	{
-*		if ((p % 2) == 0)
-*		{
-*			p = p / 2;
-*			continue;
-*		}
-*
-*		for (i = 3; i < (p / 2); d = d + 2)
-*		{
-*			if ((p % i) == 0)
-*			{
-*				p = p / d;
-*			}
-*
-*		}
-*
-*	}
-*
-*	printf("%ld", p);
-*	printf("\n");
-*/
+	printf("%ld", p);
+	printf("\n");
 
 	return (0);
 }

@@ -1,11 +1,6 @@
 #include "main.h"
 /**
- * more numbers - entry point
- *
- * @i: print ten times
- *
- * @j: prints 0-14
- *
+ * more_numbers - entry point
  * Return: returns void
  */
 void more_numbers(void)
@@ -13,13 +8,11 @@ void more_numbers(void)
 	int i;
 	int j;
 
-	for (i = 0; i < 10; i++)
+	for (i = 48; i <= 57; i++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (j = 48; j <= 57; j++)
 		{
 			_putchar (j);
-			_putchar ('\n');
-
 		}
 
 		_putchar ('\n');

@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main -entry point
  *
@@ -8,26 +9,27 @@ int main(void)
 {
 	long p = 612852475143;
 	long i;
+	long d;
 
-	while(i < (p / 2))
+	while (i < (p / 2))
 	{
 		if ((p % 2) == 0)
 		{
-			p = p / 2 ;
+			p = p / 2;
 			continue;
 		}
 
-		for (i =3; i < (p / 2); d = d + 2)
+		for (i = 3; i < (p / 2); d = d + 2)
 		{
-			if (( p % i) == 0)
+			if ((p % i) == 0)
 			{
 				p = p / d;
 			}
 		}
 
 	}
-	 _putchar (p);
-	 _putchar ('\n');
+	printf("%ld", p);
+	printf("\n");
 
 
 	return (0);

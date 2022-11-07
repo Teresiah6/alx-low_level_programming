@@ -16,7 +16,7 @@ void print_number(int n)
 		_putchar(45);
 		num = n * -1;
 	}
-	else 
+	else
 		num = n;
 	d = num;
 	c = 1;
@@ -24,11 +24,11 @@ void print_number(int n)
 	while (d > 9)
 	{
 		d = d / 10;
-		c *=10;
+		c *= 10;
 	}
-	for (;c >=1; c /= 10)
+	for (; c >= 1; c /= 10)
 	{
-		_putchar(((m / c) % 10) + 48);
+		_putchar(((n / c) % 10) + 48);
 	}
 
 }

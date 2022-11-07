@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * *cap_string - entry point 
- *
+ * *cap_string - entry point
+ * @n: char
  * Return: a char
  */
 char *cap_string(char *n)
 {
 	int i, x;
 	int cap = 32;
-	int separators[] = {',', ';', '.', '?', '"','(', ')', '{', '}', ' ', '\n', '\t'};
+	int separators[] = {',', ';', '.',
+				'?', '"', '(', ')', '{', '}'
+				' ', '\n', '\t'};
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
@@ -16,7 +18,6 @@ char *cap_string(char *n)
 		{
 			n[i] = n[i] - cap;
 		}
-		
 		cap = 0;
 		for (x = 0; x <= 12; x++)
 		{
@@ -28,5 +29,5 @@ char *cap_string(char *n)
 		}
 	}
 
-	return(n);
+	return (n);
 }

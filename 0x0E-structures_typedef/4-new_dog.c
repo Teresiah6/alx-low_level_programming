@@ -1,11 +1,9 @@
-#Include "dog.h"
+#include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
  * new_dog - create a new dog
- * @name: name
- * @age: age of dog
- * @owner: owner of dog
+ * @i: int
  * Return: 0
  */
 int get_len(int i);
@@ -15,6 +13,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *new_name;
 	char *copy_name, *copy_owner;
 	unsigned int x, name_len = 0, owner_len = 0;
+
 	new_name = malloc(sizeof(dog_t));
 
 	if (name == NULL)

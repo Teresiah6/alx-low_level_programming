@@ -1,0 +1,13 @@
+
+p_func.c:25: WARNING: suspect code indent for conditional statement
+s (11, 19)                                                                
+3-get_op_func.c:26: WARNING: Statements should start on a tabstop         
+3-get_op_func.c:27: WARNING: Statements should start on a tabstop         
+3-get_op_func.c:27: WARNING: suspect code indent for conditional statement
+s (19, 27)                                                                
+3-get_op_func.c:28: WARNING: Statements should start on a tabstop         
+3-get_op_func.c:30: ERROR: trailing whitespace                            
+3-get_op_func.c:30: WARNING: Statements should start on a tabstop         
+3-get_op_func.c:32: WARNING: Statements should start on a tabstop         
+total: 1 errors, 8 warnings, 33 lines checked
+`

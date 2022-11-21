@@ -9,8 +9,9 @@ int op_add(int a, int b)
 {
 	return (a + b);
 }
+
 /**
- * op_substract - subtract
+ * op_sub - subtract func
  * @a: first int
  * @b: second int
  * Return: int
@@ -19,8 +20,9 @@ int op_sub(int a, int b)
 {
 	return (a - b);
 }
+
 /**
- * op_mul - multiply
+ * op_mul - multiply func
  * @a: first int
  * @b: second int
  * Return: int
@@ -29,8 +31,9 @@ int op_mul(int a, int b)
 {
 	return (a * b);
 }
+
 /**
- * op_div -division
+ * op_div -division func
  * @a: first int
  * @b: second int
  * Return: int
@@ -39,8 +42,9 @@ int op_div(int a, int b)
 {
 	return (a / b);
 }
+
 /**
- * op_mod - modulus
+ * op_mod - modulus func
  * @a: first int
  * @b: second int
  * Return: int

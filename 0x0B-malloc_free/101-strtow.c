@@ -13,7 +13,8 @@ int isSpace(char c)
 }
 /**
  * startIndex - start index of non-space char
- * @s: input str                                              * @index: starting index
+ * @s: input str
+ * @index: starting index
  * Return: index of first non-space char
  */
 

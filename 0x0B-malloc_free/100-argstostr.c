@@ -10,14 +10,15 @@ int _strlen(char *s)
 {
 	int size;
 
-	for (size = 0; (s[size]) != '\0'; size++);
+	for (size = 0; (s[size]) != '\0'; size++)
+		;
 
 	return (size);
 
 }
 /**
  * *argstostr - concantenate all arguments
- * @ac: int 
+ * @ac: int
  * @av: char pointer
  * Return: character
  */
@@ -33,7 +34,7 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	for (i = 0;i < ac; i++, nc++)
+	for (i = 0; i < ac; i++, nc++)
 		nc += _strlen(av[i]);
 
 	s = malloc(sizeof(char) * nc + 1);

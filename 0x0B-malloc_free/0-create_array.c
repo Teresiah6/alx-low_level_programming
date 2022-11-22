@@ -8,15 +8,28 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *m = malloc(size);
+	char *m;
+	unsigned int pos;
 
-	if ((size = 0) || (m == 0))
+	if ((size == 0))
 	{
-		return (0);
+		return (NULL);
 	}
 
-	while (size--)
-		m[size] = c;
+	m = (char *)malloc(size * sizeof(c));
 
-	return (m);
+	if (m == 0)
+	{
+		return (NULL);
+	}
+	else
+	{
+		pos = 0;
+		while (pos < size)
+		{
+			*(m + pos) = c;
+		}
+		return (m);
+	}
+
 }

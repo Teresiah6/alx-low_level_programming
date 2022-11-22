@@ -1,0 +1,9 @@
+ne                                                  
+1-strdup.c:29: ERROR: space required before the open pare
+nthesis '('                                              
+1-strdup.c:31: WARNING: else is not generally useful afte
+r a break or return                                      
+total: 2 errors, 1 warnings, 38 lines checked            
+1-strdup.c:9: warning: No description found for parameter
+ or member 'str'                                         
+_strdup 

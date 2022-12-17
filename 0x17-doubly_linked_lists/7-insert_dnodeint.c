@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * insert_dnodeint_at_index - Inserts a new node
- * @h:  pointer to the head 
+ * @h:  pointer to the head
  * @idx: Position to insert new node.
  * @n: The integer contained in new node
  * Return: If the function fails - NULL

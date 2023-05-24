@@ -5,7 +5,8 @@ SRC =  main.c school.c
 all: school
 
 school: $(SRC)
-	$(CC) -0 school $(SRC11)
+	$(CC) -0 school  $(SRC)
 
+.PHONY: clean
 clean:
 	rm -f school

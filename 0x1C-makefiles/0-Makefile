@@ -1,0 +1,8 @@
+all: school
+
+school: all
+	cc -o school
+
+clean:
+	rm -f school
+

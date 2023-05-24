@@ -8,8 +8,8 @@ NAME = school
 
 all: $(NAME)
 
-S(NAME): $(SRC)
-	$(CC) -0 $(NAME) $(SRC)
+$(NAME): $(OBJ)
+	$(CC) -c -o $(OBJ) $(SRC)
 
 %.0: %.c
 	$(CC) -c $< -o $@

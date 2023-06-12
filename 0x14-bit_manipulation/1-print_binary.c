@@ -6,8 +6,23 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int i;
+	unsigned long int i = 1UL << (sizeof(unsigned long int) * 8 - 1);
 
-	for (i = 1 << 31; i > 0; i = i / 2)
-		(n & i) ? _putchar('1') : _putchar('0');
+	int leading_zeros = 1;
+
+   	 while (i) {
+       		 if (n & i) {
+           	 	leading_zeros = 0;
+            		_putchar('1');
+       		 } else if (!leading_zeros) {
+            		_putchar('0');
+       		 }
+        
+       		 mask >>= 1;
+    }
+
+    if (leading_zeros) {
+        _putchar('0');
+    }
+
 }
